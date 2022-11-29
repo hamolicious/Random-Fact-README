@@ -9,8 +9,6 @@ do_at = config.get('CONFIG.run_at')
 done_today = False
 
 while True:
-	sleep(30)
-
 	ct = gmtime()
 	current_time = f'{ct.tm_hour:02}:{ct.tm_min:02}'
 
@@ -26,6 +24,7 @@ while True:
 	if current_time != do_at:
 		done_today = False
 
+	sleep(30)
 
 
 

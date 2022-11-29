@@ -1,9 +1,9 @@
 @version 1
 
 [CONFIG]
-username [str] = '<username>'
-repo_name [str] = '<repo name>'
-run_at [str] = '06:00'
+username [str] = 'hamolicious'
+repo_name [str] = 'test'
+run_at [str] = '10:37'
 
 [SECRETS]
 PERSONAL_GITHUB_TOKEN [str] = ${PERSONAL_GITHUB_TOKEN}
