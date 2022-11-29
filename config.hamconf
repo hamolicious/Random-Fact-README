@@ -1,0 +1,10 @@
+@version 1
+
+[CONFIG]
+username [str] = '<username>'
+repo_name [str] = '<repo name>'
+run_at [str] = '06:00'
+
+[SECRETS]
+PERSONAL_GITHUB_TOKEN [str] = ${PERSONAL_GITHUB_TOKEN}
+
