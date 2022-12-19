@@ -1,7 +1,7 @@
 import requests
 
 def get_fact():
-	with requests.get('https://uselessfacts.jsph.pl/random.json?langauge=en') as r:
+	with requests.get('https://uselessfacts.jsph.pl/today.json?langauge=en') as r:
 		if r.status_code == 200:
 			return r.json().get('text')
 
